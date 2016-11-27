@@ -1,0 +1,260 @@
+@media (max-width: 992px) {
+.head_logo .logo_title { display: none; }
+.head_logo { justify-content: space-between;}
+.menu .nav-justified>li {
+    float: none;
+    display: table-header-group;
+    text-align: center; }
+.slider button {  display: none; }
+}
+@media (max-width: 700px) {
+.container.privilege {
+    display: none; }
+} 
+.container {
+    background: #fff; }
+body { background: #e6e6e6;}
+img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%; }
+
+/*  ШАПКА  */
+.head_logo {
+ 	height: 145px;
+ 	display: flex;
+ 	align-items: flex-start; }
+.head_logo>div { margin: 1%; }
+.head_logo .logo_title{
+	text-align: center;
+	margin-top: 2.5%; }
+.head_logo .logo_img{ min-width: 150px; }
+.head_logo .logo_contacts {
+	text-align: right;
+	font-weight: bold;
+	width: 305px; }
+.logo_contacts .contacts_text{
+	font-size: 14px;
+	float: none;
+	text-align: right; }
+.logo_contacts .contacts_phone {
+	font-size: 18px;
+	min-width: 145px;
+	color: #0068d9;
+	line-height: 100%;
+	align-items: right; }
+.btn {
+	font-size: 14px;
+	background: #00b05a;
+	border: none; }
+.logo_contacts .btn:hover { background: #e3776d; }
+.logo_title { font-size: 22px; font-weight: bold; }
+
+/* НАВИГАЦИЯ */
+.menu {
+ 	background: #0068d9;
+    border-bottom: 1px solid #616060;
+    padding-right: 0px;
+    padding-left: 0px; }
+.nav-pills>li>a { 
+    border-radius: 0px;
+    background: #0068d9;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    height: 45px;
+    padding: 10px 0px 2px 0px; }
+.menu .nav-justified{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: -webkit-center; }
+.nav.nav-pills>li>a:focus { background: #007aff; }
+.nav.nav-pills>li>a:hover{ background: #007aff; }
+.nav.nav-pills>li>a:active { background: #0068B3; }
+
+/* СЛАЙДЕР КАРУСЕЛИ */
+.slider { background-size: cover; padding: 0px; }
+.slider .item{ text-align: center; height: 400px; }
+
+/* НАВИГАЦИЯ КАРУСЕЛИ */
+.slider .carousel-control {
+    font-size: 60px;
+    padding: 15% 0% 15% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.carousel-caption {
+    float: left;
+    border: 5px solid white;
+    top: 10%;
+    bottom: 10%;
+    left: 15%;
+    right: 15%; }
+.carousel-caption .btn { float: left; }
+.carousel-caption .btn:hover {
+    background: #e3776d;
+    float: left; }
+.carousel-caption * {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2% 0% 1% 6%;
+    text-align: left;
+    max-width: 480px;
+    text-shadow: initial; }
+.carousel-indicators {
+    height: 15%;
+    width: 15%;
+    vertical-align: middle;
+    margin-left: -7%;
+    bottom: -5%; }
+.carousel-indicators li {
+    background-color: #9d9590;
+    height: 20px;
+    width: 20px;
+    margin-top: 10%; }
+.carousel-indicators .active {
+    height: 20px;
+    width: 20px;
+    background-color: #fff; }
+
+/* КНОПКА ПРАЙСА */
+.slider button {
+    background: #d34945;
+    transform-origin: left top 0;
+    transform: rotate(-90deg);
+    margin-top: -20%;
+    float: left;
+    border: none;
+    text-transform: uppercase; }
+.slider button:hover { background: #00b05a;}
+.container h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-weight: bold; } 
+
+  /* ПОПУЛЯРНАЯ ПРОДУКЦИЯ */
+.gallery img {
+    max-width: 170px;
+    border-radius: 7px; }
+.gallery_img {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 2% 3% 2%;
+    flex-wrap: wrap; }
+.gallery_img li{ margin: 1%; }
+.gallery_img li p{
+    text-align: center;
+    margin-top: 5%; }
+
+  /* ПОЧЕМУ КЛИЕНТЫ */
+.gallery_icon {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 820px;
+    align-items: flex-start; }
+.gallery_icon li{
+    margin: 1%;
+    text-align: center; }
+.gallery_icon li p{
+    text-align: center;
+    margin-top: 5%;
+    max-width: 150px; }
+.container.privilege {
+    background: #e9f0f6;
+    height: 530px; }
+
+/* С НАМИ РАБОТАЮТ */
+.partners .gallery_mega {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto; }
+.partners img { max-width: 170px; }
+
+
+/* ОФФЕР */
+.container.offer {
+    background: #0068d9;
+    height: 170px;
+    text-align: center; }
+.offer h3 { color: #fff; font-size: 27px; } 
+.offer button {
+    border: 3px solid #fff;
+    border-radius: 4px;
+    background: #0068d9;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    width: 230px; } 
+.offer button:hover {
+    background: #00b05a;
+    border: none; }
+
+/* СЧЕТЧИК */
+.container.counter {
+    background: #e9f0f6;
+    height: 210px; } 
+.counter h3 { font-size: 30px; } 
+.numbers {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: initial;
+    margin-top: -10px; }
+.counter p {
+    color: #464646;
+    font-size: 60px;
+    border: 1px solid #ccc9c9;
+    box-shadow: 0 0 8px -1px;
+    border-radius: 10px;
+    height: 70px;
+    width: 50px;
+    margin: 2px;
+    position: relative;
+    font-weight: bold;
+    top: 15px; }
+.counter p:nth-child(3) { margin-right: 10px;}
+.counter p:nth-child(6) { margin-right: 10px; }
+
+/* ФУТЕР */
+.footer_foo {
+    height: 105px;
+    width: 99%;
+    border-top: 2px solid #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+.footer_foo img{ max-width: 80px; max-height: 40px; }
+
+/* ФОРМА ЗАКАЗА */
+.modal-content{ background: #f9f9f9; }
+.modal-header { text-align: center; border-radius: 5px; padding: 3% 4%; }
+.modal-body { padding: 8px; }
+.modal-body .span2{
+    margin: 5px;
+    border-radius: 5px;
+    width: 415px;
+    padding-left: 15px; 
+    font-size: 20px;
+    height: 33px; }
+.modal-body .pull-left { float: none!important; margin-left: calc(50% - 230px); }
+.modal-footer { text-align: center; }
+.modal-footer .btn {
+    text-transform: uppercase;
+    background: #00b05a;
+    color: white; }
+.modal-footer .btn:hover { background: #e3776d; }

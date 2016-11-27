@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Модель "flat". Сложность 2</title> <meta charset="utf-8">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="row">
+    <div class="container head_logo">
+        <div class="logo_img">
+            <a href=""><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="logo_title">
+            <p>Кабель по цене производителя с бесплатной доставкой по Перми</p>
+        </div>
+        <div class="logo_contacts">
+            <p class="contacts_text">Звоните нам прямо сейчас:</p>
+            <p class="contacts_phone">8 (342) 274-29-32</p>
+            <p class="contacts_phone">8 (342) 274-29-32</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Cрочный заказ</a>
+        </div>
+    </div><!-- /.container head_logo -->
+    <div class="container menu">
+        <ul class="nav nav-pills nav-justified">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Вся продукция</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Полезная информация</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul> 
+    </div><!-- /.container menu -->
+    <div class="container slider">
+        <div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+    <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/slide1.png" alt="...">
+                <div class="carousel-caption">
+                    <h1>Широкий ассортимент кабеля на складе</h1>
+                    <p>Широкий ассортимент кабеля на складе</p>
+                    <a class="btn btn-primary">Узнать больше</a>
+                </div>
+            </div><!-- /.item active -->
+            <div class="item">
+                <img src="images/slide2.png" alt="...">
+                <div class="carousel-caption">
+                    <h1>Широкий ассортимент кабеля на складе</h1>
+                    <p>Широкий ассортимент кабеля на складе</p>
+                    <a class="btn btn-primary">Узнать больше</a>
+                </div>
+            </div><!-- /.item -->
+            <div class="item">
+                <img src="images/slide3.png" alt="...">
+                <div class="carousel-caption">
+                   <h1>Широкий ассортимент кабеля на складе</h1>
+                   <p>Широкий ассортимент кабеля на складе</p>
+                   <a class="btn btn-primary">Узнать больше</a>
+                </div>  <!-- /.carousel-caption -->
+            </div><!-- /.item -->
+        </div><!-- /.carousel-inner -->
+    <!-- Controls --> 
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-menu-right"></span>
+                    </a>
+        </div><!-- /.carousel slide -->
+            <button class="btn btn-danger" type="button">Скачать прайс</button>
+    </div><!-- /.container slider -->
+    <div class="container gallery">
+        <h3>Популярная продукция</h3>
+        <ul class="gallery_img ">
+            <li><a href=""><img src="images/viborka.png" alt="vibor"></a><p>Кабель Герда</p></li>
+            <li><a href=""><img src="images/viborka.png" alt="vibor"></a><p>Кабель Герда</p></li>
+            <li><a href=""><img src="images/viborka.png" alt="vibor"></a><p>Кабель Герда</p></li>
+            <li><a href=""><img src="images/viborka.png" alt="vibor"></a><p>Кабель Герда</p></li>
+            <li><a href=""><img src="images/viborka.png" alt="vibor"></a><p>Кабель Герда</p></li>
+        </ul> 
+    </div><!-- /.container gallery -->
+    <div class="container privilege">
+        <h3>Почему 1563 клиента уже выбрали именно нас</h3>
+        <ul class="gallery_icon ">
+            <li><a href=""><img src="images/price_tag-1.png" alt="price"></a><p>Возможность отсрочки платежа</p></li>
+            <li><a href=""><img src="images/price_tag-2.png" alt="price2"></a><p>Работа с любыми обьемами под заказ</p></li>
+            <li><a href=""><img src="images/price_tag-3.png" alt="price3"></a><p>Представляем полный перечень документов на кабельную продукцию</p></li>
+            <li><a href=""><img src="images/price_tag-4.png" alt="price4"></a><p>У нас есть свой склад</p></li>
+            <li><a href=""><img src="images/price_tag-5.png" alt="price5"></a><p>Гарантия самой низкой цены</p></li>
+            <li><a href=""><img src="images/price_tag-6.png" alt="price6"></a><p>Напрямую от производителей</p></li>
+            <li><a href=""><img src="images/price_tag-7.png" alt="price7"></a><p>Наличный и безналичный расчет</p></li>
+            <li><a href=""><img src="images/price_tag-7.png" alt="price8"></a><p>Бесплатная доставка по городу, при заказе от 20 тыс. рублей</p></li>            
+        </ul> 
+    </div><!-- /.container privilege -->
+    <div class="container partners">
+        <h3>С нами уже работают</h3>
+        <ul class="gallery_mega ">
+            <li><a href=""><img src="images/MegaFon_icon.png" alt="i_mega"></a></li>
+            <li><a href=""><img src="images/MegaFon_icon.png" alt="i_mega"></a></li>
+            <li><a href=""><img src="images/MegaFon_icon.png" alt="i_mega"></a></li>
+            <li><a href=""><img src="images/MegaFon_icon.png" alt="i_mega"></a></li>
+            <li><a href=""><img src="images/MegaFon_icon.png" alt="i_mega"></a></li>  
+        </ul>      
+    </div><!-- /.container partners -->
+    <div class="container offer">
+        <h3>Крутой Оффер, от которого глупо отказаться</h3>
+        <button data-toggle="modal" data-target="#myModal"> Сделать заказ</button>
+    </div><!-- /.container offer -->
+    <div class="container counter">
+        <h3>Приобрели у нас метров кабеля:</h3>
+        <div class="numbers">
+            <p>1</p><p>8</p><p>9</p>
+            <p>9</p><p>9</p><p>9</p>
+            <p>4</p><p>7</p><p>7</p>
+        </div>         
+    </div><!-- /.container counter -->  
+<!-- Шапка и логотип -->   
+    <div class="container head_logo footer">
+        <div class="logo_img">
+            <a href=""><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="logo_title">
+            <p>Кабель по цене производителя с бесплатной доставкой по Перми<p>
+        </div>
+        <div class="logo_contacts">
+            <p class="contacts_text">Звоните нам прямо сейчас:</p>
+            <p class="contacts_phone">8 (342) 274-29-32</p>
+            <p class="contacts_phone">8 (342) 274-29-32</p>
+            <a class="btn btn-primary" data-toggle="modal" data-target="#myModal">Cрочный заказ</a>
+        </div>
+    </div><!-- /.container head_logo footer -->  
+        <div class="container">
+            <div class="footer_foo">
+                <a href=""><img src="images/seo.png" alt="i_seo"><p>Разработка сайта</p></a>
+                <a href=""><p>Политика конфиденциальности</p></a>
+                <p>Все права защищены. 2016 год</p>
+            </div>
+        </div><!-- /.container -->
+<!-- ФОРМА ЗАКАЗА -->           
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Напишите Ваше имя и телефон и мы перезвоним вам в течении 15 минут</h4>
+              </div>
+              <div class="modal-body">
+                    <form class="navbar-form pull-left">
+                      <input type="text" class="span2" placeholder="Ваше имя">
+                      <input type="text" class="span2" placeholder="Ваш номер"><br>
+                    </form>
+              </div><!-- /.modal-body -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Отправить</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal fade -->  
+</div><!-- /.row -->
+</body>
+</html>
